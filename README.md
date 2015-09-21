@@ -8,9 +8,13 @@ This bundle plugin will statically publish your content, page or file to your se
 the 
 STATIC_PUBLISH_FOLDER value is the root folder to which your pages/content will be statically published.  For security, it MUST point to folder that is under your WEBROOT.  The variables $hostname and $language can be used in the STATIC_PUBLISH_FOLDER you specify and will be replaced by the values in the contentlet, e.g.
 
-```/opt/dotcms/tomcat8/webapps/ROOT/static/$hostname/$language```
+```
+/opt/dotcms/tomcat8/webapps/ROOT/static/$hostname/$language
+```
  would be expanded to
-```/opt/dotcms/tomcat8/webapps/ROOT/static/demo.dotcms.com/en```
+```
+/opt/dotcms/tomcat8/webapps/ROOT/static/demo.dotcms.com/en
+```
 
 
 How to build this plugin
