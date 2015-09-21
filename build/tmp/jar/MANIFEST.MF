@@ -1,0 +1,36 @@
+Manifest-Version: 1.0
+Bundle-Description: dotCMS Static Publishing Actionlet
+Bundle-SymbolicName: plugin-dotcms-actionlet-static-publish
+Bundle-ManifestVersion: 2
+Bnd-LastModified: 1442515009000
+Bundle-DocURL: http://www.dotcms.com
+Bundle-Vendor: dotcms
+Import-Package: com.dotcms.repackage.org.osgi.framework;version=0,com.
+ dotmarketing.beans;version=0,com.dotmarketing.business;version=0,com.
+ dotmarketing.business.web;version=0,com.dotmarketing.cmis.proxy;versi
+ on=0,com.dotmarketing.exception;version=0,com.dotmarketing.filters;ve
+ rsion=0,com.dotmarketing.osgi;version=0,com.dotmarketing.portlets.con
+ tentlet.business;version=0,com.dotmarketing.portlets.contentlet.model
+ ;version=0,com.dotmarketing.portlets.fileassets.business;version=0,co
+ m.dotmarketing.portlets.htmlpageasset.business;version=0,com.dotmarke
+ ting.portlets.htmlpageasset.model;version=0,com.dotmarketing.portlets
+ .languagesmanager.business;version=0,com.dotmarketing.portlets.langua
+ gesmanager.model;version=0,com.dotmarketing.portlets.structure.model;
+ version=0,com.dotmarketing.portlets.workflows.actionlet;version=0,com
+ .dotmarketing.portlets.workflows.model;version=0,com.dotmarketing.uti
+ l;version=0,com.dotmarketing.velocity;version=0,com.liferay.portal.mo
+ del;version=0,com.liferay.util;version=0,javax.servlet;version=0,java
+ x.servlet.http;version=0,org.apache.velocity;version=0,org.apache.vel
+ ocity.app;version=0,org.apache.velocity.context;version=0,org.apache.
+ velocity.tools.view.context;version=0
+DynamicImport-Package: *
+Tool: Bnd-2.1.0.20130426-122213
+Export-Package: com.dotcms.staticpublish;version="0.1";uses:="com.dotc
+ ms.repackage.org.osgi.framework,com.dotmarketing.osgi,com.dotmarketin
+ g.portlets.workflows.actionlet,com.dotmarketing.portlets.workflows.mo
+ del"
+Bundle-Name: Osgi Actionlet
+Bundle-Version: 0.1
+Bundle-Activator: com.dotcms.staticpublish.Activator
+Created-By: 1.8.0_51 (Oracle Corporation)
+
