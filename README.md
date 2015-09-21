@@ -2,9 +2,18 @@
 README
 ------
 
-This bundle plugin is an example of how to add dotcms WorkFlowActionlet classes with our bundle plugin.
+This bundle plugin will statically publish your content, page or file to your server's filesystem.   You configure this plugin using the plugin.properties file here:
+/dotCMS/plugin-actionlet-static-publish/blob/master/src/main/resources/plugin.properties
 
-How to build this example
+the 
+STATIC_PUBLISH_FOLDER value is the root folder to which your pages/content will be statically published.  For security, it MUST point to folder that is under your WEBROOT.  The variables $hostname and $language can be used in the STATIC_PUBLISH_FOLDER you specify and will be replaced by the values in the contentlet, e.g.
+
+```/opt/dotcms/tomcat8/webapps/ROOT/static/$hostname/$language```
+ would be expanded to
+```/opt/dotcms/tomcat8/webapps/ROOT/static/demo.dotcms.com/en```
+
+
+How to build this plugin
 -------------------------
 
 To install all you need to do is build the JAR. to do this run 
